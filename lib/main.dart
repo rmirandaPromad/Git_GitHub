@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.green,
       ),
-      home: const MyHomePage(title: 'GitHub'),
+      home: const MyHomePage(title: 'Rama Principal'),
     );
   }
 }

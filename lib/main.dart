@@ -70,13 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-<<<<<<< HEAD
-              'Boton presionado',
-=======
-              'Presionaste el boton estas veces',
->>>>>>> appBar
-            ),
+            const Text('Boton presionado',),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,

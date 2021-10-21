@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.red,
       ),
-      home: const MyHomePage(title: 'Rama appBar'),
+      home: const MyHomePage(title: 'Curso Git y GitHub'),
     );
   }
 }

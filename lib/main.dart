@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Curso Git',
       theme: ThemeData(
 
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.red,
       ),
-      home: const MyHomePage(title: 'Rama Principal'),
+      home: const MyHomePage(title: 'Curso Git y GitHub'),
     );
   }
 }
@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Text(widget.title, style: TextStyle(backgroundColor: Colors.blueGrey),),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -71,7 +71,11 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
+<<<<<<< HEAD
               'Boton presionado',
+=======
+              'Presionaste el boton estas veces',
+>>>>>>> appBar
             ),
             Text(
               '$_counter',
